@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Withdrawal</title>
+</head>
+<body>
+    <div id="currentBal">4000</div>
+    <div class="withdrawalBox">
+        <input type="text" name="withdrawal" id="withdrawalAmount">
+        <p class="remBal">Remaining Balance : <span id="remBalance">555</span></p>
+    </div>
+</body>
+<script>
+    let currentBal = document.getElementById("currentBal").innerText
+
+    let withdrawalAmount = document.getElementById("withdrawalAmount")
+
+    let remainingBal = document.getElementById("remBalance")
+
+    withdrawalAmount.oninput = changeInner
+
+    function changeInner() {
+        withdrawalAmount.innerHTML 
+    }
+
+
+
+</script>
+</html>

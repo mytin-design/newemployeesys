@@ -1,0 +1,26 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <style>
+                        svg {
+                            border: 2px solid;
+                            border-radius: 8px;
+                            padding: 10px;
+                            background-image: repeating-radial-gradient(#fff, #ccc, #111);
+                            
+                        }
+                        #text {
+                            font-size: 2rem;
+                            font-weight: 600;
+                            text-align: center;
+                        }    
+                    </style>
+                </defs>
+                <path id="color" d="M400 0,S 190, 150, 20 0" stroke="" fill="#eee"/>
+                <path id="color" d="M0, 0, S 170 215, 0 400" stroke="" fill="#eee"/>
+                <path id="color" d="M430 430, S220 215, 0 410" stroke="#" fill="#eee"/>
+                <path id="color" d="M410 0, S220, 215, 430 420" stroke="#" fill="#eee"/>
+                <!--<rect id="col" x="100" y="95" width="215" height="215" fill="#fff" />-->
+                <ellipse id="col" cx="210" cy="200" rx="80" ry="30" fill="#aaa"/>
+                <text id="text" x="140" y="210">Akkadian</text>
+                
+            </svg>

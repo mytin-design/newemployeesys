@@ -1,0 +1,138 @@
+/* akkadian log in styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-image: skyblue;
+    height: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.system_info {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.companyName {
+    margin-top: 100px;
+}
+
+#logger {
+    width: 20%;
+    border: .1pc solid lightgray;
+    border-radius: .2pc;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.fieldsets {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-flow: column;
+    width: 100%;
+}
+
+#userName, #passCode {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid skyblue;
+    background: transparent;
+    height: 30px;
+}
+
+
+
+#user_icon {
+    position: absolute;
+    top: 35%;
+    left: 76.5%;
+}
+
+#pass_icon {
+    position: absolute;
+    top: 45.5%;
+    left: 76.5%;
+}
+.submitBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.nooutline {
+    outline: none;
+}
+#cpssubmit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 70%;
+    border:none;
+    background-color: rgb(98, 98, 248);
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#cpssubmit:hover {
+    background-color: blue;
+}
+
+.resetOpt {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .cpslogin_in {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1pc;
+    }
+
+    .system_info {
+        text-align: center;
+    }
+   
+    #logger {
+        width: 50%;
+    }
+
+    #user_icon {
+        position: absolute;
+        top: 54.5%;
+        left: 27.3%;
+    }
+    
+    #pass_icon {
+        position: absolute;
+        top: 68.4%;
+        left: 27%;
+    }
+}
